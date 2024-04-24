@@ -1,0 +1,19 @@
+h1{color: yellow}
+
+.contact-hours-wrapper{color:grey}
+
+.address-wrapper{color:khaki}
+
+.navigation-wrapper{
+    height: 190px;
+    background-color: #33343a; 
+    color: white;
+    /*flexbox container*/
+    display: flex;
+    /*flexbox rules*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 80px;
+}
+
+body{margin: 0px;}
