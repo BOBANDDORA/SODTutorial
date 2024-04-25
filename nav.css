@@ -1,0 +1,48 @@
+
+.nav-link a{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
+}
+
+.navigation-wrapper> .center-colum> .banner-image img{
+   display: flex;
+   justify-content: center;         
+}
+
+.navigation-wrapper> .center-colum{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.nav-link{
+    width: 70px;
+    text-align: center;
+}
+
+.navigation-wrapper> .right-column{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper> .right-column> .address-wrapper{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-align: right;
+}
+
+.navigation-wrapper> .right-column> .contact-icon{
+    margin-left: 15px;
+    font-size: 2em;
+}
+
+.navigation-wrapper> .right-column> .address-wrapper a{
+    color: #858585;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.navigation-wrapper> .right-column> .address-wrapper a:hover{
+    color: pink;
+}

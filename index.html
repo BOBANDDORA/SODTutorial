@@ -5,23 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="FontAwesome/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 
 </head>
 <body>
-    <h1>Homepage</h1>
-    <!--Navigation Wrapper-->
     <div class="navigation-wrapper">
+    <!--Navigation Wrapper-->
+    <div class="left-column">
+        <div class = "icon">
+            <i class="fas fa-phone-volume"></i>
+        </div>
         <!--Contact Detail and Working hours-->
         <div class="contact-hours-wrapper">
-            <i class="fas fa-phone-volume"></i>
-            057 352 5555
+            <div class="phone"> 
+                057 352 5555
+            </div>
+           <div class="hours">
             09:00 AM- 17:00 PM
+           </div>
+       </div>
+    </div>
+    <div class="organic-food-background">
+        <div class="top-heading">
+            <hi>Organic Foods</hi>
+        </div>
+        <div class="bottom-heading">
+            <hi>Living Healthy</hi>
+        </div>
+    </div>
+
+
+    <div class="center-column">
+        <div class="banner-image">
+            <img src="Images/jjk2.jpg" alt="jjk2">
         </div>
 
         <!--Links Wrapper-->
-        <div>
+        <div class="links-wrapper">
+
            <div class="nav-link">
             <a href="index.html">Home</a>
            </div>
@@ -38,14 +64,22 @@
             <a href="https://www.linkedin.com/login" target="_blank">LinkedIn</a>
            </div>
         </div>
+    </div>
 
         <!--Address Detail-->
+    <div class="right-column">
         <div class="address-wrapper">
-            <i class="fas fa-map-marker-alt"></i>
-            1 Mothusi Road
-            Reibeckstaad
-            Welkom
-            9460
+            <a href="contact.html">
+                1 Mothusi Road <br>
+                Reibeckstaad
+                Welkom
+                9460
+            </a>
+        </div>
+        <div class="contact-icon">
+            <a href="contact.html">
+                <i class="fas fa-map-marker-alt"></i>
+            </a>  
         </div>
     </div>
 
